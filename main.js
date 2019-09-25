@@ -7,7 +7,7 @@ $(document).ready(function(){
     for(var x = 25; x < 400; x+=50){
         for(var y = 25; y < 400; y+= 50 ){
             c = shape.Circle(x,y,20);
-            c.fillColor = 'red';
+            c.fillColor = 'green';
         }
     }
     var tool = new Tool();
@@ -15,9 +15,9 @@ $(document).ready(function(){
     c.fillColor = 'black';
     var text = new PointText(200, 200);
     text.justification = 'center';
-    text.fillColor = 'Brown';
+    text.fillColor = 'white';
     text.fontSize = 20;
-    text.center = 'Hello World!!!';
+    text.content = 'Hello World!!!';
     tool.onMouseDown = function(event){
         var c = Shape.Circle(event.point, 20);
         c.fillColor = 'green';
