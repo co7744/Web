@@ -15,7 +15,7 @@ $(document).ready(function(){
     c.fillColor = 'black';
     var text = new PointText(200,200);
     text.justification = 'center';
-    text.fillColor = 'white';
+    text.fillColor = 'Brown';
     text.fontSize = 20;
     text.center = 'Hello World!!!';
     tool.onMouseDown = function(event){
