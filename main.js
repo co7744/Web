@@ -1,4 +1,4 @@
-console.log('main.js loaded')
+console.log('min.js loaded')
 $(document).ready(function(){
     'use strict';
     paper.install(window);
