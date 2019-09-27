@@ -13,7 +13,8 @@
             li:nth-child(2n){background-color:#FF0003;} /*n값은 0부터*/
             li:nth-child(2n+1){background-color: #e66363;} /*8자리면 앞에 2개는 투명도*/
 
-            .list > li > a:first-child{color: orchid;}
+            .list > ul {display: inline-flex}
+            .list > ul > li:first-child > a {color: blue;}
             
 
         </style>
@@ -30,6 +31,7 @@
                 <li>일곱번째</li>
             </ul>
         </div>
+  
         <div class = "list">
             <ul>
                 <li><a href = "#">주의사항</a></li>
